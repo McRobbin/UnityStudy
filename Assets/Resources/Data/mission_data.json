@@ -1,0 +1,42 @@
+[
+  {
+    "id": 100,
+    "goal": 10000,
+    "reward_type": 0,
+    "reward_count": 5,
+    "icon_name": "mission_img_collect",
+    "desc": "Collect {0} Golds"
+  },
+  {
+    "id": 101,
+    "goal": 500,
+    "reward_type": 2,
+    "reward_count": 10,
+    "icon_name": "mission_img_goal",
+    "desc": "Play {0} times"
+  },
+  {
+    "id": 102,
+    "goal": 300,
+    "reward_type": 1,
+    "reward_count": 300,
+    "icon_name": "mission_img_kill",
+    "desc": "Kill {0} monsters"
+  },
+  {
+    "id": 103,
+    "goal": 1,
+    "reward_type": 2,
+    "reward_count": 5,
+    "icon_name": "mission_img_key",
+    "desc": "New Episode open"
+  },
+  {
+    "id": 104,
+    "goal": 10,
+    "reward_type": 2,
+    "reward_count": 5,
+    "icon_name": "mission_img_crown",
+    "desc": "Reach level {0}"
+  }
+]

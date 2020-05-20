@@ -30,12 +30,14 @@ public class UITitle : MonoBehaviour
 
     public Button btnStart;
 
-    public UIBudget[] uiBudget;
+    public UITitleBudget[] uiBudget;
     public Sprite[] budgetIcon;
     public string[] budgetText;
 
     public Button friendBtn;
     public Button facebookBtn;
+
+    public Canvas UIMission;
  
     private void Start()
     {
@@ -60,7 +62,7 @@ public class UITitle : MonoBehaviour
                 switch ((eMenuType)captured)
                 {
                     case eMenuType.Mission:
-                        SceneManager.LoadScene("MissionTab");
+                        this.UIMission.gameObject.SetActive(true);
                         break;
                 }
             });

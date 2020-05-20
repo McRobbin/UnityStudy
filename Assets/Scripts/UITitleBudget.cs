@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class UIBudget : MonoBehaviour
+public class UITitleBudget : MonoBehaviour
 {
     public Image budgetIcon;
     public Text countText;
